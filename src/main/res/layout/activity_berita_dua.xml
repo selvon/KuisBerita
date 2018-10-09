@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myfirstapp.BeritaDua">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="335dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bb" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="JAKARTA, KOMPAS.com - Sutradara Teddy Soeriaatmadja kembali menyapa penonton film Indonesia dengan karya baru. Film berjudul Menunggu Pagi itu merupakan yang pertama setelah ia merilis film Lovely Man pada 2011.
+Film yang diproduksi oleh IFI Sinema ini direncanakan tayang di seluruh bioskop Tanah Air mulai 11 Oktober 2018.
+Film ini menggambarkan satu sisi kehidupan anak muda kota metropolitan yang terbiasa dengan gemerlap dunia malam. Lebih dekat, film ini bercerita tentang persahabatan empat remaja yang merupakan partygoers.
+Film yang dibintaingi Arya Saloka (Bayu), Bio One (Adi), Raka Hutchison (Kevin), Arya Vasco (Rico), dan Aurelie Moremans (Sara) ini menampilkan banyak intrik dan konflik sempit dunia remaja yang dibalut dalam percintaan.
+Selain itu, Teddy Soeriaatmadja juga melibatkan Mario Lawalata yang berperan sebagai seorang DJ"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myfirstapp.BeritaTiga">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="335dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Perbincangan tentang idol korea pasti tak pernah luput dari para KPopers terutama fangirl. Apalagi jika idolnya tampan, otomatis mereka akan mencari secara mendalam biodata dari idol yang mereka kagumi itu. Termasuk tanggal lahir sang idol sekaligus zodiaknya. Nah kali ini tentang idol yang mempunyai zodiak scorpio. Zodiak scorpio memiliki rentang antara tanggal 24 Oktober - 22 November.
+
+Kalian pasti tidak sabar kan? Siapa saja kah oppa-oppa yang memiliki zodiak scorpio?
+
+Ini nih 6 idol tampan yang memiliki zodiak scorpio. Yuk, intip langsung."
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+</android.support.constraint.ConstraintLayout>

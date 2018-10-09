@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myfirstapp.BeritaSatu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="335dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aa" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Jakarta (ANTARA News) - Wakil Ketua DPR RI Fadli Zon dilaporkan ke Bareskrim Mabes Polri atas dugaan penyebaran berita bohong atau hoaks penganiayaan Ratna Sarumpaet melalui media sosial.
+
+Kasus dari Ratna Sarumpaet yang sebetulnya disebarkan oleh Wakil Ketua DPR Fadli Zon di Twitternya. Mengapa baru melaporkan? Kami kaji dan analisis, kami tidak mau terburu-buru, ujar Ketua Umum Banteng Network Jack Boyd Lapian usai melaporkan Fadli Zon di Kantor Bareskrim Mabes Polri, Gambir, Jakarta, Selasa.
+
+    Menurut Jack, setelah melakukan analisis, pihaknya menilai Fadli Zon paling gencar mencuit di Twitter setelah menerima kebohongan dari Ratna Sarumpaet dan juga membuka jalan Ratna bertemu dengan capres Prabowo."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+</android.support.constraint.ConstraintLayout>
